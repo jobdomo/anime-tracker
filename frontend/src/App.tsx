@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { AnimeList } from './components/AnimeList';
 import { AnimeForm } from './components/AnimeForm';
-import { AnimeEditForm } from './components/AnimeEditForm';
+import { AnimeSearch } from './components/AnimeSearch';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <h1>Anime Tracker</h1>
       <AnimeList />
       <AnimeForm />
+      <AnimeSearch />
     </div>
   );
 }
